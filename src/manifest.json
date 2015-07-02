@@ -1,0 +1,16 @@
+{
+    "name": "yinyuetai-html5-play",
+    "version": "0.0.1",
+    "description": "Redirect yinyuetai to html5 page.",
+    "permissions": [
+        "webRequest", "webRequestBlocking",
+        "http://v.yinyuetai.com/"
+    ],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "author": "https://github.com/binyuj",
+    "homepage_url": "https://github.com/binyuj/yinyuetai-html5-play",
+    "update_url": "https://raw.githubusercontent.com/binyuj/yinyuetai-html5-play/master/update.xml",
+    "manifest_version": 2
+}
